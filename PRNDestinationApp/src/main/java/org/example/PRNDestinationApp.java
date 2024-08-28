@@ -20,7 +20,7 @@ public class PRNDestinationApp {
             return;
         }
 
-        String prnNumber = args[0].toLowerCase().replaceAll("\\s", ""); // Convert to lowercase and remove spaces
+        String prnNumber = args[0].toLowerCase().replaceAll("\\s", ""); 
         String jsonFilePath = args[1];
 
         try {
